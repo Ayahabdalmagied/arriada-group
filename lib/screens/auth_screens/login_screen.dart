@@ -1,6 +1,8 @@
+import 'package:arriada_group/screens/auth_screens/register_screen.dart';
 import 'package:arriada_group/widgets/main_button_widgets.dart';
 import 'package:arriada_group/widgets/text_field_widget.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -101,7 +103,12 @@ class _LoginScreenState extends State<LoginScreen> {
                     text: "Don't have an account? Register Now",
                     txtColor: Colors.white,
                     withBorder: true,
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(
+                          context,
+                          CupertinoPageRoute(
+                              builder: ((context) => const RegisterScreen())));
+                    },
                   ),
                 ),
               ],

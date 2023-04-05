@@ -129,6 +129,9 @@ class _RegisterScreenState extends State<RegisterScreen> {
                     }
                   }),
             ),
+            const SizedBox(
+              height: 30,
+            ),
             GestureDetector(
               onTap: toLogin,
               child: MainButton(
