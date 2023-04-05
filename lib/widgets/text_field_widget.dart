@@ -33,6 +33,7 @@ class TextFieldWidget extends StatefulWidget {
   final bool isEnabled;
   final bool isPhone;
   final bool numbersOnly;
+
   final bool doubleOnly;
   // final Function onchanged;
   final double horizontalPadding;

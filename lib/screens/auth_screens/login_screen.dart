@@ -15,6 +15,8 @@ class LoginScreen extends StatefulWidget {
 class _LoginScreenState extends State<LoginScreen> {
   TextEditingController phoneController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
+  bool showPassword = true;
+
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
 
   Future login() async {
@@ -61,7 +63,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       return 'Please enter valid phone number';
                     }
                     return null;
-                  },
+                  }, 
                 ),
                 TextFieldWidget(
                     controller: passwordController,
@@ -76,7 +78,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
                       return null;
                     },
-                    hintText: "********"),
+                    hintText: "********",),
                 const SizedBox(
                   height: 30,
                 ),
