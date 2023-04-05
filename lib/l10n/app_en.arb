@@ -1,0 +1,50 @@
+{
+    "introne":"Welcome to our Electronics Store App",
+    "introtwo":"Explore Our Products",
+    "introthree":"Get Started Now!",
+    "ccontinue":"Continue",
+    "skip":"Skip",
+    "signinone":"Welcome Back!",
+   "singintwo":"Sign in to access your account",
+   "singinthree":"Email Address:",
+   "singinfore":"Enter Email Address",
+   "singinfive":"Password",
+   "singinsix":"Enter Password",
+   "singinsaven":"Forgot Password?",
+"signin":"Sign In",
+"singineight":"Don’t have an account? ",
+"singinine":"Register Now",
+"hello":"Hello!",
+"loginone":"Register to Get Started",
+"username":"Username",
+"enteruser":"Enter Username",
+"phone":"Phone Number",
+"enterphone":"Enter Phone Number",
+"box":"By checking the box you agree to our Terms and Conditions.",
+"register":"Register",
+"already":"Already have an account?",
+"loginow":"Login Now",
+"forget":"Forgot Password?",
+"plase":"Please enter the email address linked with your account.",
+"sendcode":"Send Code",
+"remmber":"Remember Password?",
+"login":"Login",
+"otp":"OTP Verification",
+"enterotp":"Enter the verification code we just sent on your email address.",
+"receivedcode":"Didn’t received code? ",
+"resend":"Resend",
+"verify":"Verify"
+
+
+
+
+
+
+
+
+  
+
+
+
+
+}

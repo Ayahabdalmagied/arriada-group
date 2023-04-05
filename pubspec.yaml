@@ -31,18 +31,36 @@ dependencies:
   flutter:
     sdk: flutter
 
-
+  flutter_localizations:
+    sdk: flutter
+  intl:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
-  firebase_core: ^2.9.0
+  firebase_core: 
   firebase_auth:
   cloud_firestore:
   tap_debouncer:
+  google_fonts:
+  pin_code_fields:
+  introduction_screen:
+  
+  
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_launcher_icons: "^0.10.0"
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/foreground.png"
+  # adaptive_icon_path: "assets/white_logo.png"
+  image_path_ios: "assets/play_store_512.png"
+  remove_alpha_ios: true
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/foreground.png"
+  adaptive_icon_padding: true
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -56,6 +74,8 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  generate: true
+
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
