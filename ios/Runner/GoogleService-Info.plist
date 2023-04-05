@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>143322629160-j2ebh2p3of668del3a8ubelvhun9tlc0.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.143322629160-j2ebh2p3of668del3a8ubelvhun9tlc0</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCWxF8-4xFnQhvsfHPCq3_vqOzlNzCX_Ss</string>
+	<key>GCM_SENDER_ID</key>
+	<string>143322629160</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.arriadaGroup</string>
+	<key>PROJECT_ID</key>
+	<string>arriada-group-352e1</string>
+	<key>STORAGE_BUCKET</key>
+	<string>arriada-group-352e1.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:143322629160:ios:c4bf93a6dd57a2ff39211d</string>
+</dict>
+</plist>
