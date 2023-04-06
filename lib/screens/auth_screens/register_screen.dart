@@ -1,3 +1,4 @@
+import 'package:arriada_group/screens/auth_screens/login_screen.dart';
 import 'package:arriada_group/widgets/main_button_widgets.dart';
 import 'package:arriada_group/widgets/text_field_widget.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -22,9 +23,20 @@ class _RegisterScreenState extends State<RegisterScreen> {
   final TextEditingController confirmController = TextEditingController();
 
   Future Register() async {
-    await FirebaseAuth.instance.createUserWithEmailAndPassword(
-        email: phoneController.text.trim(),
-        password: passwordController.text.trim());
+    if (passwordConfirmed()) {
+      await FirebaseAuth.instance.createUserWithEmailAndPassword(
+          email: phoneController.text.trim(),
+          password: passwordController.text.trim());
+      Navigator.of(context).pushNamed("LoginScreen");
+    }
+  }
+
+  bool passwordConfirmed() {
+    if (passwordController.text.trim() == confirmController.text.trim()) {
+      return true;
+    } else {
+      return false;
+    }
   }
 
   void toLogin() {
